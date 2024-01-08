@@ -1,13 +1,12 @@
+import TextLogo from '@/components/logo/textLogo';
+
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-center p-24">
-      <div className="max-w-5xl w-full flex flex-col items-center justify-center font-mono text-lg lg:flex">
-        <h1 className="mb-4">
-          Project Name: DayCraft
-        </h1>
-        <h2>
-        Made with ❤️ by @arnavsharma2711
-        </h2>
+    <main className="flex h-full flex-col items-center justify-center bg-slate-600">
+      <div className="space-y-4">
+        <TextLogo />
+        <div className="flex justify-center">
+        </div>
       </div>
     </main>
   )
